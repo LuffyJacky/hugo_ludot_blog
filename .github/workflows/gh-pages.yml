@@ -36,5 +36,5 @@ jobs:
           
       - name: Deploy2
         run: |
-           cd ./public
-            echo '${YOUR_DOMAIN}' >> CNAME
+           touch CNAME
+            echo 'blog.ludot.me' > CNAME
