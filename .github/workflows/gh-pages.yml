@@ -34,6 +34,6 @@ jobs:
           PUBLISH_DIR: ./public     # hugo 生成的目錄
           commit_message: ${{ github.event.head_commit.message }}
           
-       - name: Deploy2
-          run: |
-            echo '${blog.ludot.me}' >> CNAME
+      - name: Deploy2
+        run: |
+          echo '${blog.ludot.me}' >> CNAME
