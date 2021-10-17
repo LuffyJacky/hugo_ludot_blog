@@ -201,3 +201,5 @@ markup:
         startLevel: 2
     highlight:
         noClasses: false
+
+enableEmoji: true
